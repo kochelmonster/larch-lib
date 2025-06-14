@@ -9,7 +9,7 @@ description = "A collection of useful code shared in the larch namespace"
 authors = [
     { name = "kochelmonster", email = "kochelmonster@users.noreply.github.com" }
 ]
-license = { text = "GNU" }
+license = { text = "MIT" }
 keywords = ["library"]
 requires-python = ">=3.7"
 

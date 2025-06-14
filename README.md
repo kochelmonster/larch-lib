@@ -84,7 +84,7 @@ python tests/run.py
 
 ## License
 
-GNU License. See `pyproject.toml` for details.
+MIT License. See `pyproject.toml` for details.
 
 ---
 
