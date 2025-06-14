@@ -21,7 +21,7 @@ pip install 'git+https://github.com/kochelmonster/larch-lib.git@master'
 For development (editable mode):
 
 ```bash
-pip install 'git+https://github.com/kochelmonster/larch-lib.git@main#egg=larch-lib[dev]'
+pip install 'git+https://github.com/kochelmonster/larch-lib.git@master#egg=larch-lib[dev]'
 ```
 
 ## Usage
