@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: larch-lib
+Version: 1.0.22
+Summary: A collection of useful code shared in the larch namespace
+Author-email: kochelmonster <kochelmonster@users.noreply.github.com>
+License: GNU
+Project-URL: Homepage, http://example.com/HelloWorld/
+Keywords: library
+Requires-Python: >=3.7
+Provides-Extra: dev
+Requires-Dist: sarge; extra == "dev"
+Requires-Dist: coverage; extra == "dev"

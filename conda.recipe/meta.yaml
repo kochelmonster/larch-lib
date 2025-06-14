@@ -1,0 +1,36 @@
+{% set data = load_setup_py_data(setup_file=RECIPE_DIR + "/../setup.py") %}
+
+package:
+  name: {{ data['name'] }}
+  version: {{ data['version'] }}
+
+source:
+  path: ..
+
+build:
+  number: 1
+  noarch: python
+  script: {{ PYTHON }} -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - python
+    - pip
+    - gevent
+
+  run:
+    - python
+
+test:
+  imports:
+    - larch.lib.aspect
+    - larch.lib.cache
+    - larch.lib.gevent
+    - larch.lib.logging
+    - larch.lib.test
+    - larch.lib.utils
+
+about:
+  home: {{ data['url'] }}
+  license: {{ data['license'] }}
+  summary: {{ data['description'] }}
