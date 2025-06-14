@@ -12,16 +12,16 @@ A collection of useful Python utilities and components, organized under the `lar
 
 ## Installation
 
-Install via pip (editable mode recommended for development):
+Install directly from GitHub (replace `main` with your desired branch or tag if needed):
 
 ```bash
-pip install -e .[dev]
+pip install 'git+https://github.com/kochelmonster/larch-lib.git@master'
 ```
 
-Or for regular use:
+For development (editable mode):
 
 ```bash
-pip install .
+pip install 'git+https://github.com/kochelmonster/larch-lib.git@main#egg=larch-lib[dev]'
 ```
 
 ## Usage

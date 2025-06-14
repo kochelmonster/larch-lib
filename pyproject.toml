@@ -26,5 +26,5 @@ dev = [
     "coverage"
     "gevent",
     "pyyaml",
-    "psutil
+    "psutil"
 ]
