@@ -23,7 +23,7 @@ include = ["larch*", "larch.lib*"]
 [project.optional-dependencies]
 dev = [
     "sarge",
-    "coverage"
+    "coverage",
     "gevent",
     "pyyaml",
     "psutil"
