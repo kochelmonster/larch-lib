@@ -1,4 +1,0 @@
-
-[dev]
-sarge
-coverage
